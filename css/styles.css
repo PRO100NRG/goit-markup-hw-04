@@ -116,7 +116,16 @@ a {
   background-color: #2e2f42;
   padding-bottom: 188px;
   padding-top: 188px;
+  background-image:linear-gradient(rgba(46, 47, 66, 0.7),
+  rgba(46, 47, 66, 0.7)),url(../imeges/herobk.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+background-size: cover;
+
 }
+
+
 
 .section-title {
   font-weight: 700;
