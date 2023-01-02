@@ -264,7 +264,9 @@ justify-content: center;}
 }
 
 
-
+.soc-link:hover,
+.soc-link:focus {
+  background: #404bbf;}
 
 
 .team-foto {
@@ -318,6 +320,55 @@ border-radius: 0px 0px 4px 4px;
   margin-bottom: 8px;
  
 }
+
+/* пятая секция клиенты */
+
+.clients-title {
+  margin-top: 0px;
+  margin-bottom: 72px;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.02em;
+}
+
+.clients {
+  padding-bottom: 120px;
+  padding-top: 130px;
+}
+
+.clients-list {
+  display: flex;
+  gap: 24px;
+  padding-left: 0px;
+
+  }
+
+.clients-item {
+  width: calc((100%-120px) / 6);
+  height: 92px;
+}
+.clients-link {
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8E8F99;
+border-radius: 4px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.clients-link:hover {
+  border-color:rgba(77, 90, 229, 1);
+}
+.clients-link:hover .clients-icon {
+  fill: rgba(77, 90, 229, 1);
+  }
+
+  .clients-icon {
+    fill: #8E8F99;
+  }
+
+
 /* футер */
 
 .footer {
@@ -409,10 +460,16 @@ padding: 12px 24px;
   border:1px solid #E7E9FC;
 }
 
-.picture-item :hover{
+.picture-item :hover {
  
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
+.picture-item :hover .footer-text{
+ 
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  }
+  
 
 .foto-text{
   padding-top: 32px;
